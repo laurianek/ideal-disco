@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0254)https://cookies.onetrust.mgr.consensu.org/?name=euconsent&value=BO0XzFsO0XzFsAcABBENDL-AAAAv17_______9______9uz_Ov_v_f__33e8__9v_l_7_-___u_-23d4u_1vf99yfm1-7etr3tp_87ues2_Xur__71__3z3_9pxP78k89r7335Ew_v-_v-b7BCPN9Y3v-8K9wA&expire=390&isFirstRequest=false -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <style>
+    body {
+      background: #6cc04a;
+      margin:20px;
+      width: 90%;
+      }
+    .container {
+      width: 100%;
+      text-align: center;
+      }
+  </style>
+  <title>Onetrust IAB cookies</title>
+  <script>
+      var locationProtocol;
+  window.onload = function(e){
+    var getQueryString = function ( field ) {
+    	var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
+    	var string = reg.exec(window.location.href);
+    	return string ? string[1] : null;
+    };
+    locationProtocol = window.location.protocol;
+    var name = (getQueryString("name"));
+    var value = (getQueryString("value"));
+    var days = (getQueryString("expire"));
+    var isFirstRequest = (getQueryString("isFirstRequest")) == 'true';
+    var IABCookie = getCookie(name);
+    if(isFirstRequest) {
+      if(!IABCookie) {
+        setCookie("init","init",1);
+      }
+      var message = {
+              OnetrustIABCookies : IABCookie || getCookie("init") || "blocked"
+            };
+      if(getCookie("init")) {
+        //delete cookies
+        setCookie("init","init",-1);
+      }
+      // Post message to the parent of the current frame
+      window.parent.postMessage(message, '*');
+    } else {
+      setCookie(name,value,days);
+    }
+  }
+
+  function setCookie(name, value, days) {
+    var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      var expires = '; expires=' + date.toGMTString();
+      if(locationProtocol === 'https:'){
+        document.cookie = name + '=' + value + expires + '; path=/; domain=.consensu.org; Samesite=None; Secure';
+      } else {
+        document.cookie = name + '=' + value + expires + '; path=/; domain=.consensu.org;';
+      }
+  }
+
+  function getCookie(name) {
+        var nameEq = name + '=',
+            ca = document.cookie.split(';'),
+            i,
+            c;
+
+            for (i = 0; i < ca.length; i += 1) {
+                c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1, c.length);
+                }
+                if (c.indexOf(nameEq) == 0) {
+                    return c.substring(nameEq.length, c.length);
+                }
+            }
+        return null;
+    }
+  </script>
+</head>
+<body style="">
+  <div class="container"> </div>
+
+
+
+</body></html>
