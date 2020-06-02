@@ -1,0 +1,390 @@
+(function() {
+"use strict";
+var cfg=[{"domain-name":["smg.com","tireamerica.com","www.tireamerica.com"],"configuration":{"wait-time-from-window-load":0,"activator-position":"smg-etr-feedbacktab-activator-e","feedback-types-enabled":["generic","targeted"],"osat-feedback-types":["targeted","generic"],"stars-rating-number-of-stars":5}}];
+
+if (function() {
+for (var e = 0; e < cfg.length; e++) for (var t = cfg[e], a = 0; a < t["domain-name"].length; a++) if ("*" == t["domain-name"][a] || (n = location.hostname, 
+r = t["domain-name"][a], n.substring(n.length - r.length) === r)) return (cfg = t.configuration).domain = location.hostname, 
+1;
+var n, r;
+cfg = {};
+}() && function() {
+try {
+document.cookie = "cookietest=1";
+var e = -1 != document.cookie.indexOf("cookietest=");
+return document.cookie = "cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT", 
+e;
+} catch (e) {
+return;
+}
+}() || (cfg["etrack-disabled"] = !0), !0 !== cfg["etrack-disabled"]) {
+for (var c, s, e = document.getElementsByTagName("script"), t = 0; t < e.length; t++) if (e[t].src && 0 <= e[t].src.toLowerCase().indexOf("api.smg.com/etrack/sdk/")) {
+var a = e[t].src.split("/");
+cfg.apiConsumerIdentifier = a[a.length - 2], cfg.projectId = a[a.length - 1], cfg.serverAddress = a[0] + "//" + a[2] + "/" + a[3] + "/";
+break;
+}
+cfg.activatorDisabled = !1, cfg.waitTimeFromWindowLoad = cfg["wait-time-from-window-load"], 
+cfg.zIndex = cfg["z-index"];
+var l = new Date(), n = function(e, t) {
+t(!0);
+}, f = n, m = "_etr_ft_js_", r = {
+enable: function() {
+cfg.activatorDisabled = !1, w();
+},
+disable: function() {
+cfg.activatorDisabled = !0, I();
+},
+registerBeforeFeedbackSubmittedHook: function(e) {
+e && "function" == typeof e && (f = e);
+},
+deRegisterBeforeFeedbackSubmittedHook: function() {
+f = n;
+}
+}, o = 1e3 * Math.abs(parseInt(cfg.waitTimeFromWindowLoad)) || 1;
+window.setTimeout(function() {
+var e = document.createEvent("CustomEvent");
+e.initCustomEvent("smgetr:feedbackTabReady", !0, !0, r), document.dispatchEvent(e), 
+i();
+}, o), Element.prototype.msMatchesSelector && (Element.prototype.matches = Element.prototype.msMatchesSelector);
+}
+function i() {
+F("FeedbackTabUi", function(e) {
+k().insertAdjacentHTML("beforeend", e["feedback-tab-activator"]);
+var r, t, a = document.getElementById("smg-etr-feedbacktab-activator");
+a.className += " " + (cfg["activator-position"] || "smg-etr-feedbacktab-activator-e"), 
+r = a, (t = cfg["feedback-types-enabled"]) && 1 === t.length && "custom" === t[0] && F("FeedbackTabUi", function(e) {
+var t = document.createElement("div");
+t.innerHTML = e["feedback-tab-feedback-type-selection"];
+var a = t.querySelector(".smg-etr-feedbacktab-type-custom a");
+a.innerHTML = r.innerHTML, r.innerHTML = "", r.appendChild(a);
+var n = getComputedStyle(r);
+a.style.paddingLeft = n.paddingLeft, a.style.paddingRight = n.paddingRight, a.style.paddingTop = n.paddingTop, 
+a.style.paddingBottom = n.paddingBottom, r.style.padding = "0";
+});
+}, "FeedbackTabUi?projectId=" + cfg.projectId + "&domain=" + location.host), function() {
+var e = u(m);
+if (e) {
+var t = e.split("~");
+b(t, 1, 1), t[1] = t[1] + 1, d(m, t.join("~"));
+} else e = [ new Date().getTime(), 1, Math.random().toString(36).substr(2, 10) ], 
+d(m, e.join("~"));
+}();
+}
+function u(e) {
+for (var t = document.cookie.split(";"), a = 0; a < t.length; a++) {
+var n = t[a].trim().split("=");
+if (n[0] === e) return n[1];
+}
+return null;
+}
+function d(e, t, a) {
+var n = "";
+a && (n = "; expires=" + a.toGMTString()), document.cookie = e + "=" + t + n + "; domain=" + encodeURIComponent(cfg.domain) + "; path=/";
+}
+function b(e, t, a) {
+e[t] = parseInt(e[t]), isNaN(e[t]) && (e[t] = a);
+}
+function g() {
+var e = "_etr_ft_vi_", t = u(e);
+if (!t) {
+var a = u("_etr_p_");
+if (a) {
+var n = a.split("~");
+n.length && n[0].length && 10 === n[0].length && (t = n[0]);
+}
+d(e, t = t || Math.random().toString(36).substr(2, 10), new Date(new Date().getTime() + 31536e6));
+}
+return t;
+}
+function v(n) {
+var r = "smg-etr-feedbacktab-" + n + "-feedback", o = "feedback-tab-" + n + "-feedback", e = document.getElementById(r);
+e ? x(e) : F("FeedbackTabUi", function(e) {
+k().insertAdjacentHTML("beforeend", e[o]);
+var t, a = document.getElementById(r);
+cfg["osat-feedback-types"] && cfg["osat-feedback-types"].indexOf && 0 <= cfg["osat-feedback-types"].indexOf(n) ? (t = a.querySelector(".smg-etr-feedbacktab-starsrating")).parentNode.removeChild(t) : function(e) {
+var t = e.querySelector(".smg-etr-feedbacktab-osatrating");
+t.parentNode.removeChild(t);
+for (var a = e.querySelector(".smg-etr-feedbacktab-feedbackform-stars"), n = a.innerHTML, r = parseInt(cfg["stars-rating-number-of-stars"]) || 5, o = 0; o < r - 1; o++) a.insertAdjacentHTML("beforeend", n);
+function i(e, t) {
+for (var a = c.length, n = 0; n < c.length; n++) {
+var r = c[n].querySelector("svg[fill-opacity]");
+r.setAttribute("fill-opacity", t), c[n] === e && (a = n), a < n && r.setAttribute("fill-opacity", "0");
+}
+return a;
+}
+var c = a.querySelectorAll(".smg-etr-feedbacktab-feedbackform-star"), d = e.querySelector(".smg-etr-feedbacktab-feedbackform-rating");
+a.addEventListener("mouseleave", function(e) {
+if (d.value) {
+var t = parseInt(d.value) - 1;
+i(c[t], "1");
+} else for (var a = 0; a < c.length; a++) {
+c[a].querySelector("svg[fill-opacity]").setAttribute("fill-opacity", "0");
+}
+});
+for (var s = function(e) {
+i(this, ".4");
+}, l = function(e) {
+var t = i(this, "1");
+d.value = t + 1;
+}, f = 0; f < c.length; f++) c[f].addEventListener("mouseenter", s), c[f].addEventListener("click", l);
+}(a), x(a);
+});
+}
+function p(e) {
+var t, a;
+cfg["welcome-page-emabled"] && cfg["welcome-page-emabled"].indexOf && 0 <= cfg["welcome-page-emabled"].indexOf(e) ? (t = e, 
+(a = document.getElementById("smg-etr-feedbacktab-welcome")) ? (a.querySelector(".smg-etr-feedbacktab-welcome-continue").value = t, 
+x(a)) : F("FeedbackTabUi", function(e) {
+k().insertAdjacentHTML("beforeend", e["feedback-tab-welcome"]), (a = document.getElementById("smg-etr-feedbacktab-welcome")).querySelector(".smg-etr-feedbacktab-welcome-continue").value = t, 
+x(a);
+})) : v(e);
+}
+function y() {
+var t = document.getElementById("smg-etr-feedbacktab-targeted-instructions");
+t ? x(t) : F("FeedbackTabUi", function(e) {
+k().insertAdjacentHTML("beforeend", e["feedback-tab-targeted-feedback-instructions"]), 
+x(t = document.getElementById("smg-etr-feedbacktab-targeted-instructions"));
+});
+}
+function k() {
+var e = document.getElementById("smg-etr-feedbacktab-container");
+return e || ((e = document.createElement("div")).id = "smg-etr-feedbacktab-container", 
+e.className = "smg-etr-feedbacktab", e.style.position = "absolute", e.style.top = "0", 
+e.style.left = "0", e.style.zIndex = cfg.zIndex || 1e4, e.addEventListener("click", E), 
+e.addEventListener("smgetr:targetedElementSelected", E), e.addEventListener("smgetr:feedbackSubmitted", E), 
+document.body.appendChild(e)), e;
+}
+function h() {
+var o = document.getElementById("smg-etr-feedbacktab-targeted-marker"), i = document.getElementById("smg-etr-feedbacktab-targeted-marker-select"), c = null, t = 0;
+function a(e, t, a) {
+o.style.display = "none", i.style.display = "none";
+var n = document.elementFromPoint(e, t);
+if (n && "HTML" !== n.nodeName && "BODY" !== n.nodeName) {
+var r = function(e) {
+var t = {
+top: e.offsetTop,
+left: e.offsetLeft,
+height: e.offsetHeight,
+width: e.offsetWidth
+}, a = e;
+for (;a.offsetParent; ) a = a.offsetParent, t.top = t.top + a.offsetTop, t.left = t.left + a.offsetLeft;
+for (a = e; null != a && !t.fixed; a = a.parentElement) {
+"fixed" === getComputedStyle(a).position && (t.fixed = !0);
+}
+return t;
+}(n);
+c = n, o.style.width = r.width + "px", o.style.height = r.height + "px", o.style.top = r.top - 4 + "px", 
+o.style.left = r.left - 4 + "px", o.style.display = "block", r.fixed ? o.style.position = "fixed" : o.style.position = "absolute", 
+a && (i.style.display = "block");
+}
+}
+function n() {
+document.removeEventListener("mousemove", l), document.removeEventListener("touchend", d), 
+document.removeEventListener("touchcancel", d), document.removeEventListener("touchstart", s), 
+o.removeEventListener("click", r), o.style.display = "none", i.style.display = "none";
+var e = document.createEvent("CustomEvent");
+e.initCustomEvent("smgetr:targetedElementSelected", !0, !0, c), o.dispatchEvent(e), 
+c = i = o = null;
+}
+function r(e) {
+e.preventDefault(), e.stopPropagation(), n();
+}
+function d(e) {
+t--, e.target === i ? n() : a(e.changedTouches[0].clientX, e.changedTouches[0].clientY, !0), 
+e.preventDefault();
+}
+function s(e) {
+t++;
+}
+function l(e) {
+0 === t && a(e.clientX, e.clientY);
+}
+document.addEventListener("mousemove", l), document.addEventListener("touchend", d), 
+document.addEventListener("touchcancel", d), document.addEventListener("touchstart", s), 
+o.addEventListener("click", r);
+}
+function E(e) {
+var t, a = c && c.querySelector(".smg-etr-feedbacktab-close"), n = k().querySelector(".smg-etr-feedbacktab-type-custom a"), r = k().querySelector(".smg-etr-feedbacktab-type-generic"), o = k().querySelector(".smg-etr-feedbacktab-type-targeted");
+if (document.getElementById("smg-etr-feedbacktab-activator").contains(e.target)) {
+var i = cfg["feedback-types-enabled"];
+i && 1 === i.length && "custom" === i[0] ? e.stopPropagation() : function() {
+var e = document.createEvent("Event");
+e.initEvent("smgetr:feedbackActivated", !0, !0), k().dispatchEvent(e);
+var t = document.getElementById("smg-etr-feedbacktab-type-selection");
+if (t) {
+var a = cfg["feedback-types-enabled"];
+a && 1 === a.length ? "targeted" === a[0] ? y() : p("generic") : x(t);
+} else F("FeedbackTabUi", function(e) {
+k().insertAdjacentHTML("beforeend", e["feedback-tab-feedback-type-selection"]);
+var t = cfg["feedback-types-enabled"];
+if (t && 2 === t.length) {
+var a = [ "targeted", "generic", "custom" ], n = k().querySelector(".smg-etr-feedbacktab-type-group");
+n.className = n.className.replace("smg-etr-feedbacktab-type-group", "").trim();
+for (var r = 0; r < a.length; r++) if (t.indexOf(a[r]) < 0) {
+var o = k().querySelector(".smg-etr-feedbacktab-type-" + a[r]);
+o.parentNode.removeChild(o);
+}
+var i = k().querySelectorAll(".smg-etr-feedbacktab-type-divider");
+0 <= t.indexOf(a[1]) && 0 <= t.indexOf(a[2]) ? i[0].parentNode.removeChild(i[0]) : i[1].parentNode.removeChild(i[1]);
+}
+x(document.getElementById("smg-etr-feedbacktab-type-selection")), t && 1 === t.length && ("targeted" === t[0] ? y() : p("generic"));
+});
+}();
+} else a && a.contains(e.target) || e.target.matches(".smg-etr-feedbacktab-thankyou-continue") || n && n.contains(e.target) ? L() : r && r.contains(e.target) ? p("generic") : o && o.contains(e.target) ? y() : e.target.matches(".smg-etr-feedbacktab-targeted-continue") ? (L(), 
+I(), h()) : "smgetr:targetedElementSelected" === e.type ? (s = e.detail, p("targeted")) : "smgetr:feedbackSubmitted" === e.type ? (t = document.getElementById("smg-etr-feedbacktab-thankyou")) ? x(t) : F("FeedbackTabUi", function(e) {
+k().insertAdjacentHTML("beforeend", e["feedback-tab-thankyou"]), x(t = document.getElementById("smg-etr-feedbacktab-thankyou"));
+}) : e.target.matches(".smg-etr-feedbacktab-feedbackform-submit") ? (e.preventDefault(), 
+function(e) {
+for (var t = "smg-etr-feedbacktab-feedbackform-", a = {
+"feedback-type": e.name.replace(t, "")
+}, n = 0; n < e.elements.length; n++) {
+var r = e.elements[n];
+r.name && (a[r.name.replace(t, "feedback-")] = T(e.elements[r.name]));
+}
+switch (a["feedback-type"]) {
+case "targeted":
+a["feedback-type"] = 1;
+break;
+
+case "generic":
+a["feedback-type"] = 2;
+}
+var o = {
+ApiConsumerIdentifier: cfg.apiConsumerIdentifier,
+ProjectId: cfg.projectId,
+VisitorIdentifier: g(),
+SessionReplayInfo: function() {
+var e = cfg["session-replay-vendor"] || "none", t = {};
+try {
+if ("mouseflow" !== e) {
+var a = e;
+throw e = "none", "FeedbackTab - Failed to getSessionReplayInfo(). Invalid session replay vendor: " + a;
+}
+var n = mouseflow.getSessionId();
+n = "-1" == n ? "" : n, t = {
+siteid: mouseflow.websiteId,
+sessionid: n
+};
+} catch (e) {
+B("POST", "Logging", null, {
+ProjectId: cfg.projectId,
+ApiConsumerIdentifier: cfg.apiConsumerIdentifier,
+VisitorIdentifier: g(),
+EventDate: new Date().toUTCString(),
+Event: e,
+CookieData: "none",
+Result: "none"
+});
+}
+return {
+Vendor: e,
+TemplateVariables: t
+};
+}(),
+FeedbackData: {}
+};
+if (C(o.FeedbackData, a), s) {
+for (var i = [], c = s; c; c = c.parentElement) i.unshift(S(c));
+o.FeedbackData.targetedFeedbackSelectedElementPath = i.join("/"), o.FeedbackData.targetedFeedbackSelectedElementInnerText = s.innerText, 
+s = null;
+}
+o.FeedbackData.currentUrl = window.location.href, o.FeedbackData.screenDimensions = window.innerWidth + ", " + window.innerHeight, 
+window.devicePixelRatio && (o.FeedbackData.devicePixelRatio = window.devicePixelRatio.toString());
+o.FeedbackData.timeOnPage = (new Date() - l).toString(), o.FeedbackData.TimezoneOffset = new Date().getTimezoneOffset(), 
+C(o.FeedbackData, function() {
+var e = u(m).split("~");
+return b(e, 0, new Date().getTime()), b(e, 1, 1), {
+JourneyDuration: (new Date().getTime() - e[0]).toString(),
+JourneyNavigations: e[1].toString(),
+JourneyIdentifier: e[2] || ""
+};
+}());
+var d = {};
+C(d, o.FeedbackData), f(d, function(e) {
+if (e) {
+if ("object" == typeof e) for (var t in e) "string" == typeof e[t] && (o.FeedbackData["custom-data:" + t] = e[t]);
+B("POST", "FeedbackTabSubmitFeedback", function() {}, o);
+}
+var a = document.createEvent("CustomEvent");
+a.initCustomEvent("smgetr:feedbackSubmitted", !0, !0, {
+data: o,
+wasSent: !!e
+}), k().dispatchEvent(a);
+});
+}(e.target.form)) : e.target.matches(".smg-etr-feedbacktab-welcome-continue") && (e.preventDefault(), 
+v(e.target.value));
+}
+function S(e) {
+var t = e.nodeName;
+if ("HTML" !== t && "BODY" !== t && (e.id && (t += "#" + e.id), e.className)) for (var a = e.className.split(" "), n = 0; n < a.length; n++) a[n].trim() && (t += "." + a[n].trim());
+return t;
+}
+function T(e) {
+if (e instanceof HTMLCollection) {
+for (var t = 0; t < e.length; t++) if (e[t].checked) return e[t].value;
+return "";
+}
+return e && 0 === e.selectedIndex ? "" : e.value;
+}
+function I() {
+document.getElementById("smg-etr-feedbacktab-activator").style.visibility = "hidden";
+}
+function w() {
+cfg.activatorDisabled || (document.getElementById("smg-etr-feedbacktab-activator").style.visibility = "visible");
+}
+function x(e) {
+L(), I();
+var t = (window.innerHeight - e.offsetHeight) / 2;
+if (e.style.top = t + "px", t < 10) {
+e.style.top = "10px", e.style.bottom = "10px";
+var a = e.offsetHeight - D(e.querySelector(".smg-etr-feedbacktab-header")) - D(e.querySelector(".smg-etr-feedbacktab-footer")), n = e.querySelector(".smg-etr-feedbacktab-content");
+n.style.height = a + "px", n.style.overflow = "auto";
+}
+var r = document.getElementById("smg-etr-feedbacktab-modalblocker");
+r || ((r = document.createElement("div")).id = "smg-etr-feedbacktab-modalblocker", 
+r.style.position = "fixed", r.style.top = "0", r.style.right = "0", r.style.bottom = "0", 
+r.style.left = "0", r.style.backgroundColor = "black", r.style.opacity = ".3", k().appendChild(r)), 
+r.style.visibility = "visible", e.style.visibility = "visible", k().insertBefore(r, e), 
+c = e;
+}
+function L() {
+if (c) {
+c.style.top = "", c.style.bottom = "";
+var e = c.querySelector(".smg-etr-feedbacktab-content");
+e.style.height = "", e.style.overflow = "", document.getElementById("smg-etr-feedbacktab-modalblocker").style.visibility = "hidden", 
+c.style.visibility = "hidden";
+for (var t = c.querySelectorAll("input, select, textarea"), a = 0; a < t.length; a++) "radio" === t[a].type ? t[a].checked = !1 : t[a] && t[a].options ? t[a].options.selectedIndex = 0 : t[a].value = "";
+for (var n = c.querySelectorAll(".smg-etr-feedbacktab-feedbackform-star svg[fill-opacity]"), r = 0; r < n.length; r++) n[r].setAttribute("fill-opacity", "0");
+for (var o = c.querySelectorAll(".smg-etr-feedbacktab-feedbackform-osat button.smg-etr-selected"), i = 0; i < o.length; i++) o[i].className = "";
+c = null, w();
+}
+}
+function D(e) {
+var t = getComputedStyle(e);
+return e.offsetHeight + parseFloat(t.marginBottom) + parseFloat(t.marginTop);
+}
+function F(n, r, e) {
+var t = sessionStorage.getItem(n);
+t ? (t = JSON.parse(t), r(t)) : e && B("GET", e, function(e) {
+var t, a;
+t = n, a = e, sessionStorage.setItem(t, JSON.stringify(a)), r(e);
+});
+}
+function C(e, t) {
+for (var a in t) e[a] = t[a];
+}
+function B(e, t, a, n) {
+var r = new XMLHttpRequest();
+r.onreadystatechange = function() {
+if (4 === r.readyState && 200 === r.status && a) {
+var e = void 0;
+r.responseText && (e = JSON.parse(r.responseText)), a(e);
+}
+4 === r.readyState && 400 <= r.status && console.error("SMG eTrack XHR error", r.status, r.responseText);
+};
+var o = [ [ "etr-api-consumer=" + cfg.apiConsumerIdentifier ], [ "etr-project-id=" + cfg.projectId ], [ "etr-visitor-id=" + g() ] ], i = "?";
+0 <= t.indexOf("?") && (i = "&"), i += o.join("&");
+var c = void 0;
+n && (c = JSON.stringify(n)), r.open(e, cfg.serverAddress + t + i), r.send(c);
+}
+})();

@@ -1,0 +1,17 @@
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-592.000000, -41.000000)" fill="#FFFFFF">
+            <g id="Back-to-Top" transform="translate(39.000000, 35.000000)">
+                <g id="Carot" transform="translate(559.000000, 12.000000) rotate(-90.000000) translate(-559.000000, -12.000000) translate(553.000000, 6.000000)">
+                    <g transform="translate(6.000000, 6.000000) rotate(-315.000000) translate(-6.000000, -6.000000) translate(2.000000, 2.000000)" id="Rectangle">
+                        <rect x="0" y="0" width="8" height="2"></rect>
+                        <rect transform="translate(7.000000, 4.000000) rotate(-270.000000) translate(-7.000000, -4.000000) " x="3" y="3" width="8" height="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
