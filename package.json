@@ -4,7 +4,8 @@
   "description": "Ideal disco",
   "main": "public/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server public/"
   },
   "repository": {
     "type": "git",
