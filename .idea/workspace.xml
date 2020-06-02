@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c5b20f17-293c-4c76-9ed5-c0a461782ce4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/carousel-demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/01S7OL3-gWL._RC_015DCfR+jFL.css,01LKsGfpclL.css,01PTkp9JOCL.css,01cdXa5nSoL.css_.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/01S7OL3-gWL._RC_015DCfR+jFL.css,01LKsGfpclL.css,01PTkp9JOCL.css,01cdXa5nSoL.css_.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/01mqQVb87-L.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/01mqQVb87-L.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/01r8lpNJhRL.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/01r8lpNJhRL.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/01wsp46SQTL.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/01wsp46SQTL.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/11-BZEJ8lnL._RC_61xmyjKeOpL.js,21Of0-9HPCL.js,012FVc3131L.js,11S5WBtBslL.js,51CF7BmbF2L.js,11AHlQhPRjL.js,016iHgpF74L.js,11aNYFFS5hL.js,116tgw9TSaL.js,211-p4GRUCL.js,01PoLXBDXWL.js,616HiO8WWWL.js,01ezj5Rkz1L.js,11BOgvnnntL.js,31shqoNXX9L.js,01rpauTep4L.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/11-BZEJ8lnL._RC_61xmyjKeOpL.js,21Of0-9HPCL.js,012FVc3131L.js,11S5WBtBslL.js,51CF7BmbF2L.js,11AHlQhPRjL.js,016iHgpF74L.js,11aNYFFS5hL.js,116tgw9TSaL.js,211-p4GRUCL.js,01PoLXBDXWL.js,616HiO8WWWL.js,01ezj5Rkz1L.js,11BOgvnnntL.js,31shqoNXX9L.js,01rpauTep4L.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/11hlEWdpPvL._RC_41tim2WsfhL.css_.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/11hlEWdpPvL._RC_41tim2WsfhL.css_.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/11omjJhwsqL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/11omjJhwsqL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/213MoiL8XJL.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/213MoiL8XJL.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/21H2qwnmnbL._RC_315GMAwkLiL.css,01ekIXTj5kL.css,01TgljZXzkL.css,11iwHtffX1L.css,01UfR8ATi1L.css,01b9Iu3feKL.css,01D-B-OeNDL.css,21CTcSQ19+L.css,01tf3OZN+lL.css,41onXD2IOaL.css,01FlII1u-ZL.css,21PVH-GNBWL.css,212hS9k0-iL.css,31MkQHV3gaL.css,314gb2LkLML.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/21H2qwnmnbL._RC_315GMAwkLiL.css,01ekIXTj5kL.css,01TgljZXzkL.css,11iwHtffX1L.css,01UfR8ATi1L.css,01b9Iu3feKL.css,01D-B-OeNDL.css,21CTcSQ19+L.css,01tf3OZN+lL.css,41onXD2IOaL.css,01FlII1u-ZL.css,21PVH-GNBWL.css,212hS9k0-iL.css,31MkQHV3gaL.css,314gb2LkLML.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/21l5OKCEfWL._RC_710cBPv3lsL.css,21TJB5pc5TL.css,31vGzsqCErL.css,21lRUdwotiL.css,41TCfXduFuL.css,11G4HxMtMSL.css,31OvHRW+XiL.css,01XHMOHpK1L.css_.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/21l5OKCEfWL._RC_710cBPv3lsL.css,21TJB5pc5TL.css,31vGzsqCErL.css,21lRUdwotiL.css,41TCfXduFuL.css,11G4HxMtMSL.css,31OvHRW+XiL.css,01XHMOHpK1L.css_.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/21q6fNgsQrL._RC_21XJFDMQuNL.js,11OyIHCq0lL.js,01GhKb2usNL.js_.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/21q6fNgsQrL._RC_21XJFDMQuNL.js,11OyIHCq0lL.js,01GhKb2usNL.js_.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/21tHiZA7UIL._RC_118Say7HIZL.js,21E2aIDj6DL.js,21qk2ExEZeL.js,31+xGjdCf0L.js,01g2etah0NL.js,41RTB2a7f2L.js,41Zn3nHsbtL.js,11lmER5dfgL.js,0185ITV0M6L.js,41lxrvkGALL.js,21Fu9j1zRBL.js,31oAusX3tfL.js,71l-Cj8CpGL.js,4123BTTtUrL.js,11nOzlnr6+L.js,31r7NSuHzOL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/21tHiZA7UIL._RC_118Say7HIZL.js,21E2aIDj6DL.js,21qk2ExEZeL.js,31+xGjdCf0L.js,01g2etah0NL.js,41RTB2a7f2L.js,41Zn3nHsbtL.js,11lmER5dfgL.js,0185ITV0M6L.js,41lxrvkGALL.js,21Fu9j1zRBL.js,31oAusX3tfL.js,71l-Cj8CpGL.js,4123BTTtUrL.js,11nOzlnr6+L.js,31r7NSuHzOL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/311+NUiljjL._RC_51j3luHua5L.js_.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/311+NUiljjL._RC_51j3luHua5L.js_.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/31BM0J1xGPL._RC_31Nb5hZQizL.js,316nVZ1c+gL.js,21+yY95nCVL.js,318rs4piGPL.js,11ISJZDdTuL.js,01TQyo0bnIL.js,11bdX9xnYpL.js,01jEqq6I0UL.js,013NxCyC-FL.js,61ybuMymm8L.js,01X5C8pWB1L.js,01Fy9QPljuL.js,11oGaoYgbdL.js,0193uyIciNL.js,41fW1gpnNZL.js,31hX4Tmrw3L.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/31BM0J1xGPL._RC_31Nb5hZQizL.js,316nVZ1c+gL.js,21+yY95nCVL.js,318rs4piGPL.js,11ISJZDdTuL.js,01TQyo0bnIL.js,11bdX9xnYpL.js,01jEqq6I0UL.js,013NxCyC-FL.js,61ybuMymm8L.js,01X5C8pWB1L.js,01Fy9QPljuL.js,11oGaoYgbdL.js,0193uyIciNL.js,41fW1gpnNZL.js,31hX4Tmrw3L.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/31BVuidgT8L.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/31BVuidgT8L.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/31H5mrYdaqL._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/31H5mrYdaqL._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/31QLlXfnpNL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/31QLlXfnpNL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/31VR11jQ1XL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/31VR11jQ1XL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/31XVnFQal6L._RC_01ButlQEWQL.js,01-4MbsHMWL.js,11gFiYe7KbL.js,21tg2IpqDAL.js_.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/31XVnFQal6L._RC_01ButlQEWQL.js,01-4MbsHMWL.js,11gFiYe7KbL.js,21tg2IpqDAL.js_.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/31b1bNLKTuL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/31b1bNLKTuL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/31esBw5HeIL._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/31esBw5HeIL._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/31fjC6y0csL._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/31fjC6y0csL._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/31jrTgUO2GL.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/31jrTgUO2GL.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/31pL+UX7h1L.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/31pL+UX7h1L.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/360_icon_73x73v2._CB485971309_SS40_FMpng_RI_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/360_icon_73x73v2._CB485971309_SS40_FMpng_RI_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/411rWMfhQqL._RC_71Voum2OmdL.js,61nu+N-SMyL.js,41W9ohA0e+L.js,11vrNkbdcvL.js,21qaguVEGfL.js,41QN7vBTpzL.js,51wilTzvmEL.js,31SHuHnJQqL.js_.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/411rWMfhQqL._RC_71Voum2OmdL.js,61nu+N-SMyL.js,41W9ohA0e+L.js,11vrNkbdcvL.js,21qaguVEGfL.js,41QN7vBTpzL.js,51wilTzvmEL.js,31SHuHnJQqL.js_.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/416S5M5AR9L._AC_US40_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/416S5M5AR9L._AC_US40_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/417YohgeCeL._AC_US40_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/417YohgeCeL._AC_US40_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41BQJdPGo1L._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41BQJdPGo1L._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41IK8om96mL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41IK8om96mL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41J8X7GzJAL._AC_US40_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41J8X7GzJAL._AC_US40_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41MfSCPXQsL._AC_SR150,200_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41MfSCPXQsL._AC_SR150,200_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41THdNCw4OL._RC_31iWhmLNdPL.js_.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41THdNCw4OL._RC_31iWhmLNdPL.js_.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41UBIIkyshL.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41UBIIkyshL.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41YjYmVaC-L._RC_51pAk-x2dGL.js_.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41YjYmVaC-L._RC_51pAk-x2dGL.js_.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41a0PQFaS8L._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41a0PQFaS8L._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41eO-AJxSwL._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41eO-AJxSwL._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41lc60U5QTL.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41lc60U5QTL.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41mXNhy4TtL._AC_US40_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41mXNhy4TtL._AC_US40_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41pgCmBoc7L._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41pgCmBoc7L._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41vBly+SZvL._AC_SR150,200_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41vBly+SZvL._AC_SR150,200_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41wwqwBzvLL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41wwqwBzvLL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/41xfvySiVSL._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/41xfvySiVSL._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/51+0Nb5X4cL._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/51+0Nb5X4cL._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/51+LVRVwD6L._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/51+LVRVwD6L._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/516pRPmH7dL._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/516pRPmH7dL._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/517c7YStj0L._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/517c7YStj0L._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/51ESRPL0D6L._AC_US40_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/51ESRPL0D6L._AC_US40_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/51cdpuEKwNL._AC_SR160,160_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/51cdpuEKwNL._AC_SR160,160_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/51edwx2TO7L._AC_US40_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/51edwx2TO7L._AC_US40_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/51n8X9X73QL._AC_UL320_SR320,320_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/51n8X9X73QL._AC_UL320_SR320,320_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/51rCa4G+8JL._AC_SS350_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/51rCa4G+8JL._AC_SS350_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/51rCa4G+8JL._AC_UL320_SR320,320_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/51rCa4G+8JL._AC_UL320_SR320,320_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/51s75BysibL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/51s75BysibL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/51wPnbmLYoL._AC_UL320_SR320,320_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/51wPnbmLYoL._AC_UL320_SR320,320_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/51z5D9AGrML._RC_51IB+wfP8qL.css,01evdoiemkL.css,01K+Ps1DeEL.css,31pdJv9iSzL.css,01W6EiNzKkL.css,11UGC+GXOPL.css,21LK7jaicML.css,11L58Qpo0GL.css,21kyTi1FabL.css,01ruG+gDPFL.css,01YhS3Cs-hL.css,21GwE3cR-yL.css,019SHZnt8RL.css,01wAWQRgXzL.css,21bWcRJYNIL.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/51z5D9AGrML._RC_51IB+wfP8qL.css,01evdoiemkL.css,01K+Ps1DeEL.css,31pdJv9iSzL.css,01W6EiNzKkL.css,11UGC+GXOPL.css,21LK7jaicML.css,11L58Qpo0GL.css,21kyTi1FabL.css,01ruG+gDPFL.css,01YhS3Cs-hL.css,21GwE3cR-yL.css,019SHZnt8RL.css,01wAWQRgXzL.css,21bWcRJYNIL.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61-6nKPKyWL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61-6nKPKyWL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/614XkupXFJL._AC_SS350_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/614XkupXFJL._AC_SS350_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/614XkupXFJL._AC_UL320_SR320,320_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/614XkupXFJL._AC_UL320_SR320,320_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/618MMxlIlFL._AC_UL320_SR320,320_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/618MMxlIlFL._AC_UL320_SR320,320_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61KRbrAtEEL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61KRbrAtEEL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61Toq2BueML._AC_UL320_SR320,320_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61Toq2BueML._AC_UL320_SR320,320_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61gCwYlD08L._AC_SL1001_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61gCwYlD08L._AC_SL1001_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61gCwYlD08L._AC_SS350_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61gCwYlD08L._AC_SS350_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61gCwYlD08L._AC_SX679_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61gCwYlD08L._AC_SX679_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61gCwYlD08L._AC_UL115_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61gCwYlD08L._AC_UL115_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61iI-3gW88L._AC_SS350_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61iI-3gW88L._AC_SS350_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61iI-3gW88L._AC_UL320_SR320,320_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61iI-3gW88L._AC_UL320_SR320,320_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61kfsfDiTZL._RC_11bRdV2t20L.css,514T4Tj3VdL.css,01g2EoxOu-L.css,21YhU0eDybL.css,21ByukFKG4L.css,01DeBJ5q9YL.css,01XCpRSPwjL.css,11xRy3bSkOL.css,01QUs5FVXoL.css,01qB+TVkL0L.css,41vOQb1k0LL.css,01FtAuFRr3L.css,01rgQ3jqo7L.css,21ZTURXcQVL.css,31DeVoKESfL.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61kfsfDiTZL._RC_11bRdV2t20L.css,514T4Tj3VdL.css,01g2EoxOu-L.css,21YhU0eDybL.css,21ByukFKG4L.css,01DeBJ5q9YL.css,01XCpRSPwjL.css,11xRy3bSkOL.css,01QUs5FVXoL.css,01qB+TVkL0L.css,41vOQb1k0LL.css,01FtAuFRr3L.css,01rgQ3jqo7L.css,21ZTURXcQVL.css,31DeVoKESfL.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61lIUOEYJjL._AC_UL320_SR320,320_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61lIUOEYJjL._AC_UL320_SR320,320_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/61weLLN5nlL._AC_UL115_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/61weLLN5nlL._AC_UL115_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/715AI+5xDSL._AC_SS350_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/715AI+5xDSL._AC_SS350_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/715AI+5xDSL._AC_UL320_SR320,320_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/715AI+5xDSL._AC_UL320_SR320,320_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/716TOs1CLgL._CR204,0,1224,1224_UX175.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/716TOs1CLgL._CR204,0,1224,1224_UX175.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/716vr+ZluhL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/716vr+ZluhL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/71BqH+9iVsL.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/71BqH+9iVsL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/71H1MWA6ZjL._CR204,0,1224,1224_UX175.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/71H1MWA6ZjL._CR204,0,1224,1224_UX175.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/71sp2TeL6lL._CR0,204,1224,1224_UX175.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/71sp2TeL6lL._CR0,204,1224,1224_UX175.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/81uCUtCyAIL._CR0,204,1224,1224_UX175.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/81uCUtCyAIL._CR0,204,1224,1224_UX175.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/AmazonClassic_135x85.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/AmazonClassic_135x85.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/Benefit_icon_illustration_shipping._CB485927722_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/Benefit_icon_illustration_shipping._CB485927722_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/PRIME_BBOP_POPOVER_NEWICONS_ID_1095._CB422440922_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/PRIME_BBOP_POPOVER_NEWICONS_ID_1095._CB422440922_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/PRIME_BBOP_POPOVER_NEW_CONS_ID_1095._CB422440922_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/PRIME_BBOP_POPOVER_NEW_CONS_ID_1095._CB422440922_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/PRIME_BBOP_POPOVER_NEW_CONS_ID_1095903_reading1._CB422440922_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/PRIME_BBOP_POPOVER_NEW_CONS_ID_1095903_reading1._CB422440922_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/SWM_400x39_HO_Control._CB485944281_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/SWM_400x39_HO_Control._CB485944281_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/UKcbcc_modal-stripe-classic._CB423090301_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/UKcbcc_modal-stripe-classic._CB423090301_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/XCM_Manual_650x45_1204376_1204376_uk_bgc_uk_launch_landing_page_2_1576162815_png_LOWER_QL85_._CB444924334_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/XCM_Manual_650x45_1204376_1204376_uk_bgc_uk_launch_landing_page_2_1576162815_png_LOWER_QL85_._CB444924334_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/a9-tq-forensics.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/a9-tq-forensics.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/airy.skin._CB485981857_.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/airy.skin._CB485981857_.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/beacon._CB485971591_.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/beacon._CB485971591_.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/benefit-blueicon-photo._CB422440922_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/benefit-blueicon-photo._CB422440922_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/eu_auto_19-05-2015_tyres-rims_40X40._SS20_CB485933980_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/eu_auto_19-05-2015_tyres-rims_40X40._SS20_CB485933980_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/grey-pixel.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/grey-pixel.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/iu3.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/iu3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/loading-4x-gray._CB485916908_.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/loading-4x-gray._CB485916908_.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/loading-small_trans._CB485933929_.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/loading-small_trans._CB485933929_.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/logo_pin_white_279x58._CB422438604_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/logo_pin_white_279x58._CB422438604_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/nav-sprite-global_bluebeacon-1x_optimized_layout1._CB468502434_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/nav-sprite-global_bluebeacon-1x_optimized_layout1._CB468502434_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/prime_spc_isoa._CB485926050_.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/prime_spc_isoa._CB485926050_.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/review-lightbox-combined._CB485944097_.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/review-lightbox-combined._CB485944097_.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/review-lightbox-combined._CB485971519_.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/review-lightbox-combined._CB485971519_.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/saved_resource(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/saved_resource(1).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/saved_resource(2).html" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/saved_resource(2).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/saved_resource.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/saved_resource.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/special-offers-generic._CB485934161_.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/special-offers-generic._CB485934161_.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel-demo_files/transparent-pixel._CB485934990_.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/carousel-demo_files/transparent-pixel._CB485934990_.gif" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1clYLRaNjyZ0FRuxV4TSyAnT6pX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5b20f17-293c-4c76-9ed5-c0a461782ce4" name="Default Changelist" comment="" />
+      <created>1591104590244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591104590244</updated>
+      <workItem from="1591104592927" duration="128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
