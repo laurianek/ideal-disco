@@ -455,6 +455,10 @@ CCPA Preference Center
     position:absolute !important;
   }
   #carbarBlock {display:none !important;}
+  #luminery-container-01{
+    margin-top: 20px;
+    height: 200px;
+  }
 </style>
 
 
@@ -466,6 +470,7 @@ CCPA Preference Center
   (function(){
     setTimeout(function() {
       var cont = document.createElement('div')
+      cont.id = 'luminery-container-01'
       cont.innerHTML = '<div data-luminery="carousel"\n' +
         '                    data-channel-id="2CcO08rMxpdvJkN78gkZQC"\n' +
         '                    data-api-key="BkSayFqVc39pU9Uv2n4JQa8WC9ji6SNY88jDpB3g"\n' +
